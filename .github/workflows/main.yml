@@ -25,6 +25,7 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: |
+        sudo apt-get install libasound-dev
         python -m pip install --upgrade pip
         pip install sounddevice numpy soundfile
     - name: Run rec
