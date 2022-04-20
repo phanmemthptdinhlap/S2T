@@ -29,4 +29,3 @@ jobs:
         pip install sounddevice numpy soundfile
       run: |
         python rec.py
-got
