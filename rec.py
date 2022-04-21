@@ -1,6 +1,3 @@
-from curses import panel
-from turtle import textinput
-from cairo import Content
 import sounddevice as sd
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
